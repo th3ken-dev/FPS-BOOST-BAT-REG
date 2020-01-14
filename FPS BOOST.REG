@@ -1,0 +1,49 @@
+REGEDIT FPS by TH3KEN
+
+TEHLÝKE ! SAKIN OYNAMAYINIZ - SADECE KENDÝ PC ADINIZI YAZINIZ !!!
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Intel\GMM]
+"DedicatedSegmentSize"=dword:00000512
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\PriorityControl]
+"Win32PrioritySeparation"=dword:00000026
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"MenuShowDelay"="0"
+
+[HKEY_CURRENT_USER\Control Panel\Desktop\PerMonitorSettings]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\OfficialHawk\Minecraft]
+"Version"="1.7.10"
+"Versions"="1.8.8"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control]
+"WaitToKillServiceTimeout"="2000"
+
+
+"Path"="C:\\Users\\TH3KEN\\AppData\\Roaming\\.minecraft\\"
+"TcpNoDelay"=dword:0000147f
+"TCPDelAckTicks"=dword:00000005
+"TcpMaxDataRetransmissions"=dword:00000003
+"SackOpts"=dword:00000001
+"TcpWindowSize"=dword:0005ae4c
+"Tcp1323Opts"=dword:00000003
+"DefaultTTL"=dword:00007fff
+"EnablePMTUBHDetect"=dword:00000000
+"EnablePMTUDiscovery"=dword:00000001
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters]
+"BootId"=dword:00000026
+"BaseTime"=dword:1d2fe681
+"EnablePrefetcher"=dword:00000005
+"EnableSuperfetch"=dword:00000003
+"SfTracingState"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Games]
+"FpsStatusGames"=dword:00000010
+"FpsStatusGamesAll"=dword:0000004
+"FpsAll"=dword:0000001
+"GameFluidity"=dword:0000008
